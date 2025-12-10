@@ -1,0 +1,162 @@
+/* ===== General Styles ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf0; /* soft, warm background */
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ===== Header ===== */
+header {
+    background-color: #f0e6f6; /* soft lavender */
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #4b2e83;
+    margin: 0;
+}
+
+header .lead {
+    font-size: 1.1rem;
+    margin-top: 8px;
+    color: #6a4ca2;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    margin: 0 15px;
+    font-weight: bold;
+    color: #4b2e83;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #7d5fff;
+}
+
+/* ===== Buttons ===== */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7d5fff;
+    color: #fff;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin: 5px 0;
+}
+
+.button:hover {
+    background-color: #5a3ccc;
+}
+
+.secondary-button {
+    background-color: #fff;
+    color: #7d5fff;
+    border: 2px solid #7d5fff;
+}
+
+.secondary-button:hover {
+    background-color: #7d5fff;
+    color: #fff;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff4e6; /* soft warm tone */
+}
+
+.hero-image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #4b2e83;
+}
+
+.hero-text {
+    font-size: 1.1rem;
+    max-width: 650px;
+    margin: 15px auto 0;
+    line-height: 1.6;
+}
+
+/* ===== Feature Buttons Section ===== */
+#feature-buttons a {
+    font-size: 1rem;
+    margin: 10px 5px;
+}
+
+/* ===== Mission Section ===== */
+.mission-section h2 {
+    font-size: 1.8rem;
+    color: #4b2e83;
+    margin-bottom: 20px;
+}
+
+.mission-section ul li {
+    font-size: 1.05rem;
+    margin: 12px 0;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* ===== Inspirational Section ===== */
+.inspirational-section {
+    background-color: #f3eafc;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.inspirational-section h2 {
+    font-size: 1.7rem;
+    color: #4b2e83;
+    margin-bottom: 15px;
+}
+
+.quote-source {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0e6f6;
+    color: #4b2e83;
+    font-weight: bold;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+    .hero-image {
+        max-width: 95%;
+    }
+    
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
